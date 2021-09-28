@@ -1,14 +1,17 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import NavbarItem from './components/Header/NavbarItem';
+import Home from './components/Home/Home';
 import './css/responsive.css'
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
+      <Router>
+        <NavbarItem />
+        <Route exact path="/" component={Home} />
+      </Router>
     </div>
   );
 }
