@@ -1,0 +1,61 @@
+/* Mobile Devices */
+@media only screen and (max-width: 468px) {
+   /* hero section */
+    .content h2{
+        font-size: 70px;
+        color: #fff;
+        font-family: 'arial';
+    }
+    .content p{
+        font-size: 15px;
+        color: #fff;
+        text-align: justify;
+    }
+    .content #readMoreButton {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .content #loactionButton {
+        font-size: 13px;
+    }
+    
+    /* About area */
+    .about{
+        padding: 5px;
+        margin: 10px;
+    }
+
+ }
+ 
+ 
+ /* mobile to ipad Devices */
+ @media (min-width: 468px) and (max-width: 993px) {
+    .content h2{
+        font-size: 100px;
+        color: #fff;
+        font-family: 'arial';
+    }
+    .content p{
+        font-size: 15px;
+        color: #fff;
+        text-align: justify;
+    }
+    .content #readMoreButton{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .content #loactionButton{
+        font-size: 15px;
+    }
+    /* about area */
+    .about{
+        padding: 5px;
+        margin: 10px;
+    }
+ }
+ 
+ /* Ipad to desktop Devices */
+ @media only screen and (min-width: 768px){
+     
+ 
+ }
