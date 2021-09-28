@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavbarItem from './components/Header/NavbarItem';
 import Home from './components/Home/Home';
+import Seasons from './components/Seasons/Seasons';
 import './css/responsive.css'
 
 
@@ -10,7 +11,10 @@ function App() {
     <div className="App">
       <Router>
         <NavbarItem />
-        <Route exact path="/" component={Home} />
+        <Switch>
+          <Route exact path="/" component={Home} /> 
+          <Route exact path="/seasons" component={Seasons} /> 
+        </Switch>
       </Router>
     </div>
   );
