@@ -16,12 +16,12 @@
     transition: 0.1s ease-out;
 }
 .card-title{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.2s all ease-in-out;
 }
 .card-img-overlay:hover > .card-title{
-  font-size: 30px;
-  letter-spacing: 5px;
+  font-size: 23px;
+  letter-spacing: 3px;
 }
