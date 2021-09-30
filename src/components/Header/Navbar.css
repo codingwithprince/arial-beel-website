@@ -3,7 +3,7 @@
 	background-size: cover;
 	min-height:100%;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 60vh;
 	max-width: 100%;
 	animation: backgroundSlider 40s infinite;
 	position: relative;
@@ -52,7 +52,7 @@
 .navbar{
 	padding: 5px 5%;
     z-index: 4;
-    background-color: rgba(0, 0, 0, 0.5)!important;
+    background-color: rgba(255, 255, 255, 0.109);
 	position:fixed;
 	top:0;
 	width: 100%;
@@ -62,14 +62,14 @@
     text-transform: capitalize;
     font-family: 'Pacifico', cursive;
     text-decoration: none;
-    color: #fff !important;
+    color: #222 !important;
 }
 .nav-item{
 	margin-right: 15px;
 	margin-left: 5px;
 }
 .nav-link{
-	color: #fff !important;
+	color: #222 !important;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -84,7 +84,7 @@
 .navbar-nav{
 	float: right;
 	text-align: right;
-	color: #fff;
+	color: #222;
 }
 .navbar-light .navbar-toggler{
 	border-color: rgba(255, 255, 255, 0.534);
