@@ -1,0 +1,9 @@
+.img-gallrey{
+    display: flex;
+    flex-direction: column;
+}
+.img-gallrey img{
+    max-width: 100%;
+    margin: 5px;
+    border-radius: 3px;
+}
