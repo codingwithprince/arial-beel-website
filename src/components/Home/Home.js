@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Hero from '../Hero/Hero';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Location from '../Location/Location';
@@ -15,6 +16,8 @@ const Home = () => {
             <ImageGallery />
             {/* === Location section === */}
             <Location />
+            {/* === About section === */}
+            <About />
         </div>
     );
 };

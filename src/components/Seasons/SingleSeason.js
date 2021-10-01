@@ -3,15 +3,16 @@ import { Card,Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const SingleSeason = (props) => {
-    const {name, img, link} = props.info;
+    const {name, img, link,bName} = props.info;
     return (
-        <Col as={Link} to={link} sm="6" md="6" lg="4" className=" d-flex justify-content-center align-items-center">
+        <Col as={Link} to={link} sm="6" md="6" lg="4" className="season d-flex justify-content-center align-items-center">
             <Card className="text-white single-season">
             <Card.Img src={img} alt="Card image" />
             <Card.ImgOverlay>
-                <Card.Title style={{whiteSpace: "pre-line"}} className="text-center">{name}</Card.Title><br/>
+                <Card.Title className="text-center">{bName}</Card.Title><br/>
             </Card.ImgOverlay>
             </Card>
+            <Link to="/" className="season-link">{name}</Link>
         </Col>
     );
 };
