@@ -11,7 +11,11 @@
   margin-bottom: 50px;
 }
 .section-title{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
-  margin: 50px;
+  border-bottom: 3px solid #222;
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
