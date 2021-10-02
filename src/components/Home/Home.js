@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Location from '../Location/Location';
 import Seasons from '../Seasons/Seasons';
+import Guide from '../TourGuide/Guide';
 
 const Home = () => {
     return (
@@ -18,6 +19,8 @@ const Home = () => {
             <Location />
             {/* === About section === */}
             <About />
+            {/* === Tour Guide Section === */}
+            <Guide />
         </div>
     );
 };

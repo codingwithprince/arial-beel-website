@@ -1,0 +1,28 @@
+.guide{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position: center;
+    background-size: cover;
+}
+.step{
+    height: 130px;
+}
+.step{
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.step h5{
+    font-weight: 600;
+    color: #222;
+    padding-bottom: 5px;
+}
+.step p{
+    text-align: justify;
+    color: #333;
+    padding-right: 50px;
+}
+.step:hover{
+    scale: 1.025;
+}
