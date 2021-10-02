@@ -1,18 +1,13 @@
 .about-section{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://travelbd.xyz/en/wp-content/uploads/2020/11/ab1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 .about-text{
-    font-size: 18px;
-    color: #fff;
+    color: #222;
     text-align: justify;
     padding: 5px;
 }
-span{
+.span{
     font-size: 40px;
     font-weight: 600;
     padding-right: 2px;

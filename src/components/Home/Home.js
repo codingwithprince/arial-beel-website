@@ -7,7 +7,7 @@ import Seasons from '../Seasons/Seasons';
 
 const Home = () => {
     return (
-        <div className="home section-padding">
+        <div className="home">
             {/* === Hero Section === */}
             <Hero />
             {/* === Seasons Section === */}

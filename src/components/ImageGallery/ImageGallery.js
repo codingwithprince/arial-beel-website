@@ -25,7 +25,7 @@ const ImageGallery = () => {
                         <img src="https://newshour.media/wp-content/uploads/2017/08/29412812680_77a13c1575_b-1-1.jpg" alt="" />
                     </Col>
                 </Row>
-                <button className="btn btn-success d-block mt-5 m-auto">See More</button>
+                <button className="button d-block mt-5 m-auto">See More</button>
             </Container>
         </div>
     );

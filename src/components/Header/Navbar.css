@@ -52,7 +52,7 @@
 .navbar{
 	padding: 5px 5%;
     z-index: 4;
-    background-color: #FFFAFA !important;
+    background-color: #00a749 !important;
 	position:fixed;
 	top:0;
 	width: 100%;
@@ -62,14 +62,14 @@
     text-transform: capitalize;
     font-family: 'Pacifico', cursive;
     text-decoration: none;
-    color: #222 !important;
+    color: #fff !important;
 }
 .nav-item{
 	margin-right: 15px;
 	margin-left: 5px;
 }
 .nav-link{
-	color: #222 !important;
+	color: #fff !important;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -79,13 +79,13 @@
     text-decoration: none;
     outline: 0;
 	border-radius: .25rem;
-    box-shadow: 0 0 0 .20rem rgba(255, 255, 255, 0.233);
+    box-shadow:none;
 }
 .navbar-nav{
 	float: right;
 	text-align: right;
-	color: #222;
+	color: #fff;
 }
 .navbar-light .navbar-toggler{
-	border-color: rgba(255, 255, 255, 0.534);
+	border-color: transparent;
 }

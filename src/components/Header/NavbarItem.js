@@ -10,7 +10,7 @@ const NavbarItem = () => {
         <Container>
             <Link className="navbar-brand" to="/">arial-beel</Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
-                <span><AiOutlineMenuFold color="#000" fontSize="25px" /></span>
+                <span><AiOutlineMenuFold color="#fff" fontSize="25px" /></span>
                 </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
