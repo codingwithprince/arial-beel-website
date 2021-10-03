@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="footer pb-5">
          <svg className="footer-wave"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fffafa" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,256C640,267,800,245,960,250.7C1120,256,1280,288,1360,304L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
             <Container fluid>
-                <Row style={{marginTop: "200px"}}>
+                <Row style={{marginTop: "200px", paddingBottom:"20px"}}>
                     <Col sm="12" md="4">
-                        <div className="footer-text">
+                        <div className="footer-text footer-links">
                             <Link to='/'>arial-beel</Link>
-                            <p>Welcome to Arial beel.</p>
+                            <p>a boat trip to Arial Bill in the rainy season can be a good time to enjoy the most beautiful scenery.</p>
                         </div>
                     </Col>
                     <Col sm="12" md="4">
@@ -28,14 +28,21 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col sm="12" md="4">
-                    <h3 className="link-title">Social Links</h3>
+                        <div className="footer-links">
+                        <h3 className="link-title">Social Links</h3>
                         <div className="social-links">
                             <FaFacebookSquare className="social-link" />
                             <FaInstagramSquare  className="social-link" />
                             <FaTwitterSquare  className="social-link" />
                             <FaYoutubeSquare  className="social-link" />
                         </div>
+                        </div>
+                    
                     </Col>
+                </Row>
+                <hr style={{color:"#fff", height:"2px"}} />
+                <Row className="text-center">
+                    <p className="text-white">Developed by <a className="text-white" target="blank" href="https://www.facebook.com/profile.php?id=100008591616145">Prince Ahmed</a>❤️</p>
                 </Row>
             </Container>
         </div>

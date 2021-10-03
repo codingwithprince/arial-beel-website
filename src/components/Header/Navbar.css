@@ -62,14 +62,14 @@
     text-transform: capitalize;
     font-family: 'Pacifico', cursive;
     text-decoration: none;
-    color: #fff !important;
+    color: #fffafa !important;
 }
 .nav-item{
 	margin-right: 15px;
 	margin-left: 5px;
 }
 .nav-link{
-	color: #fff !important;
+	color: #fffafa !important;
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -84,7 +84,7 @@
 .navbar-nav{
 	float: right;
 	text-align: right;
-	color: #fff;
+	color: #fffafa;
 }
 .navbar-light .navbar-toggler{
 	border-color: transparent;
