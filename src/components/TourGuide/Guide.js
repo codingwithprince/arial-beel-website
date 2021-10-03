@@ -10,7 +10,7 @@ const Guide = () => {
             <Container className="steps-parents">
                 <h4 style={{fontWeight: "600", color: "white"}}>Follow These Steps: </h4>
                 <hr />
-                <Row style={{backgroundColor: "whitesmoke", paddingBottom: "40px", marginBottom:"50px"}}>
+                <Row style={{backgroundColor: "whitesmoke", paddingBottom: "40px", paddingTop: "20px" ,marginBottom:"50px"}}>
                     <Col sm="12" md="6" lg="6">
                         <div className="step">
                             <h5>Step - 1</h5>

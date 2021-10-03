@@ -5,12 +5,10 @@
 }
 .step{
     height: 130px;
-}
-.step{
+    border-left: 4px solid #00a749;
     padding: 15px;
-    border-radius: 10px;
     transition: 0.3s ease-in-out;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .step h5{
@@ -21,7 +19,6 @@
 .step p{
     text-align: justify;
     color: #333;
-    padding-right: 50px;
 }
 .step:hover{
     scale: 1.025;
