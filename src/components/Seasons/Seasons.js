@@ -15,7 +15,7 @@ const Seasons = () => {
     ]
 
     return (
-        <div className="seasons-area section-padding">
+        <div className="seasons-area section-padding" id="seasons">
             <h2 className="text-center section-title">Seasons</h2>
             <Container>
                 <Row>

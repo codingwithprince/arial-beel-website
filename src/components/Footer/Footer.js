@@ -6,14 +6,19 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer pb-5">
+        <div className="footer pb-5" id="footer">
          <svg className="footer-wave"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fffafa" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,256C640,267,800,245,960,250.7C1120,256,1280,288,1360,304L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
             <Container fluid>
                 <Row style={{marginTop: "200px", paddingBottom:"20px"}}>
                     <Col sm="12" md="4">
-                        <div className="footer-text footer-links">
-                            <Link to='/'>arial-beel</Link>
-                            <p>a boat trip to Arial Bill in the rainy season can be a good time to enjoy the most beautiful scenery.</p>
+                        <div className="footer-links">
+                            <Link className="footer-logo" to='/'>arial-beel</Link>
+                            <div className="footer-text">
+                                <p>A boat trip to Arial Beel in the rainy season can be a good time to enjoy the most beautiful scenery.</p>
+                                <p className="fw-600">Contact Us</p>
+                                <p> Email:  princeahmed2629@gmail.com</p>
+                                <p> Phone:  +8801877653239</p>
+                            </div>
                         </div>
                     </Col>
                     <Col sm="12" md="4">

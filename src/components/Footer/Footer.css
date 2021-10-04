@@ -13,18 +13,19 @@
    left: 0;
    width: 100%;
 }
-.footer-text a{
+.footer-logo{
 	font-size: 30px;
     text-transform: capitalize;
     font-family: 'Pacifico', cursive;
     text-decoration: none;
     color: #fff !important;
 }
-.footer-text p{
-    color: #fff;
+.footer-text{
     padding-top: 20px;
+}
+.footer-text p{
+    color: #fffafa;
     text-align: left;
-    text-transform: capitalize;
 }
 .footer-links{
     text-align: center;
@@ -47,6 +48,9 @@
     text-decoration: none;
     padding-top: 10px;
    
+}
+.fw-600{
+    font-weight: 700;
 }
 .social-links{
     padding-top: 20px;

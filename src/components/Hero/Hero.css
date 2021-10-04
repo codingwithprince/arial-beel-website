@@ -13,7 +13,7 @@
 .bg-darks{
     width: 100%;
    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1));
 }
 .content h2{
     font-size: 130px;
@@ -22,7 +22,7 @@
     text-shadow: 5px 5px 20px rgb(0, 0, 0);
 }
 .content p{
-    font-size: 17px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
     text-shadow: 5px 5px 20px rgb(0, 0, 0);
@@ -34,6 +34,7 @@
     padding: 7px 13px;
     margin-right: 10px;
     font-size: 15px;
+    font-weight: 600;
     border-radius: 5px;
     color: #fff;
     transition: 0.5s;
@@ -43,13 +44,42 @@
 .button:hover{
     background-color: #0dca5f;
 }
-.button:hover > .hero-btn {
+.readButton{
+    background-color: #00a749; 
+    border: 0;
+    padding: 9px 13px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
     color: #fff;
-}
-.hero-btn{
-    font-size: inherit;
+    transition: 0.5s;
     text-decoration: none;
-    color: #fff;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.readButton:hover{
+    background-color: #fffafa;
+    color: #00a749;
+}
+.locationButton:hover{
+    background-color: #00a749;
+    color: #fffafa;
+}
+.locationButton{
+    background-color: #fffafa; 
+    border: 0;
+    text-decoration: none;
+    padding: 9px 13px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #00a749;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .wave{
     position: absolute;

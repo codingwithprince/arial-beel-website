@@ -15,15 +15,10 @@ const NavbarItem = () => {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
                 <Nav.Link as={Link} eventKey={0} className="nav-link" to="/">Home</Nav.Link>
-                <Nav.Link as={Link} eventKey={1} className="nav-link" to="/seasons">Seasons</Nav.Link>
-                <NavDropdown title="Explore" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link as={Link} eventKey={2} className="nav-link" to="/pictures">Pictures</Nav.Link>
-                <Nav.Link as={Link} eventKey={3} className="nav-link" to="/about">About</Nav.Link>
-                <Nav.Link as={Link} eventKey={4} className="nav-link" to="/contact">Contact</Nav.Link>
+                <Nav.Link eventKey={1} className="nav-link" href="#seasons">Seasons</Nav.Link>
+                <Nav.Link eventKey={2} className="nav-link" href="#pictures">Pictures</Nav.Link>
+                <Nav.Link eventKey={3} className="nav-link" href="#about">About</Nav.Link>
+                <Nav.Link eventKey={4} className="nav-link" href="#footer">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

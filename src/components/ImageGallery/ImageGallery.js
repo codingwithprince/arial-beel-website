@@ -1,11 +1,12 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './ImageGallary.css';
 
 const ImageGallery = () => {
     return (
-        <div className="image-gallery section-padding">
+        <div className="image-gallery section-padding" id="pictures">
             <h2 className="section-title text-center">Gallery</h2>
             <Container fluid className="p-3">
                 <Row>
@@ -25,7 +26,7 @@ const ImageGallery = () => {
                         <img src="https://newshour.media/wp-content/uploads/2017/08/29412812680_77a13c1575_b-1-1.jpg" alt="" />
                     </Col>
                 </Row>
-                <button className="button d-block mt-5 m-auto">See More</button>
+                <button  className="button d-block mt-5 m-auto">See More</button>
             </Container>
         </div>
     );
