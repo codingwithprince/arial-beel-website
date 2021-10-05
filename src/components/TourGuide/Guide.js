@@ -30,12 +30,12 @@ const Guide = () => {
                         </div>
                         <div className="step">
                             <h5>Step - 4</h5>
-                            <p>After reaching Alampur Bazar Search for Boat to hire which will cost you around 500 Tk per hour.
+                            <p>After reaching Alampur Bazar Search for Boat to hire which will cost you around 700-800 Tk per hour.
                                 You can also <a href="#footer" style={{textDecoration:"none"}}> contact </a>us for hiring boat. 
                             </p>
                         </div>
                     </Col>
-                    <p className="text-center mt-5"><FcIdea fontSize="25px" /> <span>Tips : </span>  Try to arrive before noon. So that, you will have enough time to explore the beautiful beel.</p>
+                    <p className="text-center mt-5"><FcIdea fontSize="25px" /> <span>Tips : </span>  Try to arrive before noon. So that, you will have enough time for exploring the beautiful beel.</p>
                 </Row>
             </Container>
             </Container>

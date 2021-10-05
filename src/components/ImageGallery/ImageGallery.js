@@ -11,7 +11,7 @@ const ImageGallery = () => {
             <Container fluid className="p-3">
                 <Row>
                     <Col xs="12" sm="4" md="4" lg="4" className="img-gallrey">
-                    <img src="https://newshour.media/wp-content/uploads/2017/08/29412812680_77a13c1575_b-1-1.jpg" alt="" />
+                        <img src="https://newshour.media/wp-content/uploads/2017/08/29412812680_77a13c1575_b-1-1.jpg" alt="" />
                         <img src="https://newshour.media/wp-content/uploads/2017/08/29412812680_77a13c1575_b-1-1.jpg" alt="" />
                         <img src="https://img.thedailystar.net/sites/default/files/upload-2014/gallery/image/arts/farmers-working-together.jpg" alt="" />
                     </Col>

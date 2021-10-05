@@ -47,7 +47,7 @@ const Footer = () => {
                 </Row>
                 <hr style={{color:"#fff", height:"2px"}} />
                 <Row className="text-center">
-                    <p className="text-white">Developed by <a className="text-white" target="blank" href="https://www.facebook.com/profile.php?id=100008591616145">Prince Ahmed</a>❤️</p>
+                    <p style={{color: "#b8b8b8"}}>Developed by <a className="text-white" target="blank" href="https://www.facebook.com/profile.php?id=100008591616145">Prince Ahmed</a>❤️</p>
                 </Row>
             </Container>
         </div>
