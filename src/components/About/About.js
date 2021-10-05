@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import Iframe from 'react-iframe';
 
 const About = () => {
@@ -9,7 +9,8 @@ const About = () => {
             <h2 className="section-title text-center">About</h2>
             <Container fluid className="about-section">
                 <Container>
-                <Iframe width="100%" height="400" src="https://www.youtube.com/embed/LO0BX94rx6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
+                    
+                    <ControlledCarousel />
                     <p className="about-text"><span className="span">A</span>rial Beel is the third largest wetland in Bangladesh. This beel is covering an area of 136 sq. km. It is situated in Sreenagar Upazila of Munshiganj District. The beel is full of many small ponds and canals. During the rainy season,
                         the plants become livelier and the vast with land borders look exotic. Though the beel reduces in winter, it still remains navigable. The beel abounds in fish and during the dry season the farmer's corns and vegetables in the dry area. The pumpkin of this beel is famous. You can have a tour of the beel by boats. The beel is just 35 km from Dhaka and can be reached in an hour and a half.
                         Arial Beel, located south of the capital city, between the Padma and Dhaleshwari rivers, is the third-largest wetland in Bangladesh covering an area of 136 square kilometers.Breeding ground of a large number of fish species, Aral Beel turns into a vast sea during the rainy season. Though fishing continues to be the main occupation of the local community, in winter some portion of the beel turns green with the cultivation of various types of crops and vegetables.
@@ -22,5 +23,43 @@ const About = () => {
         </div>
     );
 };
+
+
+function ControlledCarousel() {
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+  
+    return (
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./images/img1.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./images/img2.jpg"
+            alt="Second slide"
+          />
+
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="./images/img3.jpg"
+            alt="Third slide"
+          />
+
+        </Carousel.Item>
+      </Carousel>
+    );
+  }
+  
 
 export default About;

@@ -1,6 +1,5 @@
 .about-section{
     padding-bottom: 50px;
-    padding-top: 50px;
 }
 .about-text{
     color: #222;
@@ -14,4 +13,13 @@
 }
 .about-img{
     margin-top: 30px;
+}
+.carousel {
+	position: relative;
+	max-height: 500px;
+	width: 100%;
+	overflow: hidden;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 0;
 }
