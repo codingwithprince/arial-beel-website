@@ -5,7 +5,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <div className="hero-area header-area">
+        <div className="hero-area header-area" id="home">
             <div className="bg-darks"></div>
              {/* <!--Overlay  --> */}
             <div class="content">

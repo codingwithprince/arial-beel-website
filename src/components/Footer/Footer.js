@@ -15,7 +15,7 @@ const Footer = () => {
                             <Link className="footer-logo" to='/'>arial-beel</Link>
                             <div className="footer-text">
                                 <p>A boat trip to Arial Beel in the rainy season can be a good time to enjoy the most beautiful scenery.</p>
-                                <p className="fw-600">Contact Us</p>
+                                <h5 className="fw-600">Contact Us</h5>
                                 <p> Email:  princeahmed2629@gmail.com</p>
                                 <p> Phone:  +8801877653239</p>
                             </div>
@@ -26,7 +26,7 @@ const Footer = () => {
                             <h3 className="link-title">Quick Links</h3>
                             <ul>
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#pictures">Gallery</a></li>
                                 <li><a href="#location">Location</a></li>
                                 <li><a href="#about">About</a></li>
                             </ul>

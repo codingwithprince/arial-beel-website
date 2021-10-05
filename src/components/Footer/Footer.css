@@ -24,8 +24,9 @@
     padding-top: 20px;
 }
 .footer-text p{
-    color: #fffafa;
+    color: #b8b8b8;
     text-align: left;
+    margin-bottom: 0;
 }
 .footer-links{
     text-align: center;
@@ -44,19 +45,23 @@
     margin-top: 5px;
 }
 .footer-links ul li a{
-    color: #fff;
-    text-decoration: none;
+    color: #b8b8b8;
     padding-top: 10px;
-   
+    font-weight: 600;
+    text-decoration: none;
 }
 .fw-600{
-    font-weight: 700;
+    text-align: left;    
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .social-links{
     padding-top: 20px;
 }
 .social-links .social-link{
     font-size: 30px;
-    color: #fff;
+    color: #b8b8b8;
     margin-right: 5px;
 }

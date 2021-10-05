@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { FcIdea } from 'react-icons/fc';
 import "./Guide.css";
 
 const Guide = () => {
@@ -14,27 +15,27 @@ const Guide = () => {
                     <Col sm="12" md="6" lg="6">
                         <div className="step">
                             <h5>Step - 1</h5>
-                            <p>Wherever you are in Bangladesh. First Come to  Dhaka, Gulistan.</p>
+                            <p>If you are in Dhaka then first come to Gulistan and search for Boishakhi ( বৈশাখী ) Bus. They will bring you directly to Alampur Bazar.</p>
                         </div>
                         <div className="step">
                             <h5>Step - 2</h5>
-                            <p>Then take a bus for mawa highway. There are few bus's name which are Elish, Sadhin or boishakhi.</p>
-                        </div>
-                        <div className="step">
-                            <h5>Step - 3</h5>
-                            <p>If you got in to boishakhi then don't worry they will bring you to Alampur bridge or just stop the bus at hashara school gate.</p>
+                            <p> There are other buses you can choose like Elish, Bosumoti, Prochesta etc. but you have to 
+                                    get down in Hashara School gate.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="step">
-                            <h5>Step - 4</h5>
-                            <p>From Hashara then take a Auto which cost 15-20 tk per person for reaching Alampur Bridge.</p>
+                             <h5>Step - 3</h5>
+                             <p>Then Take a Auto for Alampur Bazar which will cost 15/20tk per person.</p>
                         </div>
                         <div className="step">
-                            <h5>Step - 5</h5>
-                            <p>If you are in Alampur then search for Boat to hire. They will help you to explore The Arial Beel.</p>
+                            <h5>Step - 4</h5>
+                            <p>After reaching Alampur Bazar Search for Boat to hire which will cost you around 500 Tk per hour.
+                                You can also <a href="#footer" style={{textDecoration:"none"}}> contact </a>us for hiring boat. 
+                            </p>
                         </div>
                     </Col>
+                    <p className="text-center mt-5"><FcIdea fontSize="25px" /> <span>Tips : </span>  Try to arrive before noon. So that, you will have enough time to explore the beautiful beel.</p>
                 </Row>
             </Container>
             </Container>
