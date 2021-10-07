@@ -9,8 +9,11 @@ const About = () => {
       <h2 className="section-title text-center">About</h2>
       <Container fluid className="about-section">
         <Container>
-          {/* ===  carousel === */}
-          <ControlledCarousel />
+          {/* ===  iframe === */}
+
+          <Iframe width="100%" height="400" src="https://www.youtube.com/embed/ZJAvcKX7DSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
+         
+          {/* === Text === */}
           <p className="about-text"><span className="span">A</span>rial Beel is the third largest wetland in Bangladesh. This beel is covering an area of 136 sq. km. It is situated in Sreenagar Upazila of Munshiganj District. The beel is full of many small ponds and canals.
             During the Rainy season,
             The plants become more energetic and the huge with land borders look intriguing. However the beel lessens in winter, it actually stays traversable. The beel has large amounts of fish and during the dry season. The pumpkin of this beel is popular. You can have a visit through the beel by boats. The beel is only 35 km from Dhaka and can be reached in 40 minutes.
@@ -29,41 +32,7 @@ const About = () => {
 };
 
 
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
-  return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="./images/img1.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="./images/img2.jpg"
-          alt="Second slide"
-        />
-
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="./images/img3.jpg"
-          alt="Third slide"
-        />
-
-      </Carousel.Item>
-    </Carousel>
-  );
-}
 
 
 export default About;

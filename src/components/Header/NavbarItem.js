@@ -14,7 +14,7 @@ const NavbarItem = () => {
                 </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-                <Nav.Link as={Link} eventKey={0} className="nav-link" to="/">Home</Nav.Link>
+                <Nav.Link  eventKey={0} className="nav-link" href="#home">Home</Nav.Link>
                 <Nav.Link eventKey={1} className="nav-link" href="#seasons">Seasons</Nav.Link>
                 <Nav.Link eventKey={2} className="nav-link" href="#pictures">Pictures</Nav.Link>
                 <Nav.Link eventKey={3} className="nav-link" href="#about">About</Nav.Link>

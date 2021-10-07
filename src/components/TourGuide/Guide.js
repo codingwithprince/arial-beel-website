@@ -35,7 +35,7 @@ const Guide = () => {
                             </p>
                         </div>
                     </Col>
-                    <p className="text-center mt-5"><FcIdea fontSize="25px" /> <span>Tips : </span>  Try to arrive before noon. So that, you will have enough time for exploring the beautiful beel.</p>
+                    <p className="text-center mt-5"><FcIdea fontSize="25px" /> <span>Tips : </span>  Try to arrive before noon. So that, you can have enough time to explore the beautiful beel.</p>
                 </Row>
             </Container>
             </Container>
