@@ -12,7 +12,9 @@ const Footer = () => {
                 <Row style={{marginTop: "200px", paddingBottom:"20px"}}>
                     <Col sm="12" md="4">
                         <div className="footer-links">
-                            <Link className="footer-logo" to='/'>arial-beel</Link>
+                            <Link className="footer-logo" to='/'>
+                                arial-beel
+                            </Link>
                             <div className="footer-text">
                                 <p>A boat trip to Arial Beel in the rainy season can be a good time to enjoy the most beautiful scenery.</p>
                                 <h5 className="fw-600">Contact Us</h5>

@@ -8,7 +8,9 @@ const NavbarItem = () => {
     return (
         <Navbar collapseOnSelect bg="light" expand="lg">
         <Container>
-            <Link className="navbar-brand" to="/">arial-beel</Link>
+            <Link className="navbar-brand" to="/">
+                arial beel
+            </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span><AiOutlineMenuFold color="#fffafa" fontSize="25px" /></span>
                 </Navbar.Toggle>
